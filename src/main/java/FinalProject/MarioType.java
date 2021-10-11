@@ -1,0 +1,5 @@
+package FinalProject;
+
+public enum MarioType {
+    PLAYER,COIN,PLATFORM,ALIEN,PORTAL,LAVA,LEVER,DOOR, ENEMY,LOCKEDDOOR,CAT
+}
