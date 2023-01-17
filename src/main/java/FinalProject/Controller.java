@@ -462,7 +462,7 @@ public class Controller extends GameApplication {
     //postc: a shop will be created from a text file with all the data
     private void makeShop(){
         try {
-            FileReader reader = new FileReader("src\\main\\java\\FinalProject\\items");
+            FileReader reader = new FileReader("src/main/java/FinalProject/items");
             Scanner in = new Scanner(reader);
             int count = 0;
             while (in.hasNextLine()) {
